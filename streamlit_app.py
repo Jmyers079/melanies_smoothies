@@ -34,6 +34,7 @@ st.write(ingredients_string)
 my_insert_stmt = f"""
     INSERT INTO smoothies.public.orders (ingredients, name_on_order)
     VALUES ('{ingredients_string}', '{name_on_order}')
+    sf_df = st/dataframe(data=smoothiefroot_response.json(), use_container_width=True
 """
 
 st.write(my_insert_stmt)
